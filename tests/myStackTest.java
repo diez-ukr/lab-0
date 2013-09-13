@@ -1,4 +1,4 @@
-import junit.framework.TestCase;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -8,14 +8,13 @@ import org.junit.Test;
  * Time: 23:00
  * To change this template use File | Settings | File Templates.
  */
-public class myStackTest extends TestCase
-{
+public class myStackTest {
     private myStack st = new myStack();
 
     @Test
     public void testPop() throws Exception
     {
         st.Push(3);
-        assertEquals(3, (Object) st.Pop());
+        Assert.assertEquals(3, (Object) st.Pop());
     }
 }
