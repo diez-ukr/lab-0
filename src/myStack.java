@@ -1,12 +1,11 @@
 import java.util.LinkedList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: diezu_000
+/*
+ * Author: R.Bietin
  * Date: 09.09.13
  * Time: 22:22
- * To change this template use File | Settings | File Templates.
  */
+
 public class myStack
 {
     private Integer maxSize;
